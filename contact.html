@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximun-scale=3.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Styles CSS -->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<!-- Social Icons -->
+	<link rel="stylesheet" type="text/css" href="icons.css">
+
+	<title>Dog Restaurant</title>
+</head>
+
+<body>
+
+	<header class="main-header">
+		<div class="container container--flex"></div>
+		<div class="logo-container column column--50">
+			<a style="text-decoration: none;" href="/"><h1 class="logo">Dog Restaurant</h1></a>
+		</div>
+		<div class="main-header-contactInfo column column--50">
+			<p class="main-header__contactInfo__phone">
+				<span class="icon-phone">+58911-911-911</span>
+			</p>
+			<p class="main-header__contactInfo__address">
+				<span class="icon-location">Where dogs are happy</span>
+			</p>
+		</div>
+	</header>
+
+	<nav class="main-nav">
+		<div class="container container--flex">
+			<span class="icon-menu" id="btnmenu"></span>
+			<ul class="menu" id="menu">
+				<li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
+				<li class="menu__item"><a href="team.html" class="menu__link">Team</a></li>
+				<li class="menu__item"><a href="/" class="menu__link menu__link--select">Contact</a></li>
+			</ul>
+			<div class="social-icons">
+				<a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+				<a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+				<a href="" class="social-icon__link"><span class="icon-youtube"></span></a>
+			</div>
+		</div>
+	</nav>
+
+	<section class="banner">
+		<img src="images/b3.jpg" alt="" class="banner-img">
+		<div class="banner-content">Please contact us.</div>
+	</section>
+
+	<main class="main">
+		<section class="group group-color">
+			<div class="container">
+				<h2 class="main-title">Feel free to send us a message</h2>
+				<p class="main-txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure quos cupiditate maxime sapiente impedit? Debitis accusantium ipsa voluptas, quos, rerum obcaecati nemo cum impedit ratione, commodi fuga, dignissimos nostrum officia.</p>
+			</div>
+		</section>
+
+		<section>
+			<div class="contact-container">
+				<form action="action.php" method="post">
+
+					<label for="fname">First Name</label>
+					<input type="text" id="fname" name="name" placeholder="Your name.." required>
+
+					<label for="lname">Last Name</label>
+					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+					<label for="lname">Email</label>
+					<input type="text" id="lname" email="email" placeholder="Your email.." required>
+
+					<label for="subject">Subject</label>
+					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+					<input type="submit" value="Submit" required>
+
+				</form>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="main-footer">
+		<div class="container container--flex">
+			<div class="column-column--33">
+				<h2 class="column__title">Why choose this restaurant</h2>
+				<p class="column__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor labore ad debitis doloremque dolores cumque commodi, repellendus!</p>
+			</div>
+			<div class="column-column--33">
+				<h2 class="column__title">Contact:</h2>
+				<p class="column__txt">+58911-911911</p>
+				<p class="column__txt">Where dogs are happy</p>
+				<p class="column__txt">dogissues@email.com</p>
+			</div>
+			<div class="column-column--33">
+				<h2 class="column__title">Follow in social media</h2>
+				<p class="column__txt"><a href="#" class="icon-facebook">facebook</a></p>
+				<p class="column__txt"><a href="#" class="icon-twitter">twitter</a></p>
+				<p class="column__txt"><a href="#" class="icon-youtube">youtube</a></p>
+			</div>
+		</div>
+
+		<p class="copy">Copyright 2020. All dogs reserved. <br>Please take care your pets</p>
+	</footer>
+
+</body>
+
+<!-- Javascript -->
+<script src="menu.js"></script>
+
+</html>
